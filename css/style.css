@@ -74,12 +74,15 @@ thead{
 .rowhead{
   border-top: 2px solid #000000;
   border-right: 2px solid #000000;
+  vertical-align: middle;
 }
 
 td{
-  padding: 15px;
+  padding: 10px;
   text-align: center;
+  vertical-align: middle;
   border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
 }
 
 tr:nth-child(odd){
@@ -94,13 +97,15 @@ tr:hover{
   background-color: rgba(126,8,48,.25)  
 }
 
-/* thead tr:first-child th:first-child{} */
+* {}
+
+thead tr:first-child th:first-child{}
 
 footer{
   width:100%;
   min-height: 75px;
   background:#000000;
-  bottom:0px;
+  bottom:0;
   position:fixed;
   text-align:center;
   color: #FFFFFF;
