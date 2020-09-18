@@ -39,37 +39,52 @@ p{
 }
 
 a{
-
+  font-size:16px;
+  color:#C12258;
+  text-decoration:underline;
+  text-decoration-style: wavy;
 }
 
 table{
     border: 2px solid #000000;
+    border-radius: 10px;
 }
+
 
 .colhead{
   background-color: #7e0830;
+  vertical-align: middle;
+  text-align: center;
   color: #FFFFFF;
-}
+  min-width: 125px;
+  padding: 10px;
+  text-transform: uppercase;
+  }
 
 .rowhead{
-
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
 }
 
 td{
   padding: 15px;
+  text-align: center;
+  border-top: 2px solid #000000;
 }
 
-tr{
-
+tr:nth-child(odd){
+  background-color: #D1D1D1;
 }
 
-*{
-
+tr:nth-child(even){
+  background-color: transparent;
 }
 
-thead tr:first-child th:first-child{
-  
+tr:hover{
+  background-color: rgba(126,8,48,.25)  
 }
+
+/* thead tr:first-child th:first-child{} */
 
 footer{
   width:100%;
