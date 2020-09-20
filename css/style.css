@@ -12,12 +12,12 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
-  font-family: 'Andika', sans-serif;
+  font-family: Andika, sans-serif;
   background-image: url("../images/pigeon-background.JPEG");
   background-position: center;
   background-color: #DDDDDD;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -26,7 +26,7 @@ main{
 }
 
 h1{
-  color: #B92751;
+  color: #C12258;
   font-size: 2em;
   line-height: 2;
   text-align: center;
@@ -42,24 +42,24 @@ p{
 
 a{
   font-size:16px;
-  color:#C12258;
-  text-decoration:underline;
+  color:#B21F50;
+  text-decoration-line: underline;
   text-decoration-style: wavy;
 }
 
 table{
-  color: black;
-  margin-left: auto;
-  margin-right: auto;
-  border-collapse: separate;
+  /* color: black;
+  margin-left: auto; */
+  margin: auto;
+  /* border-collapse: separate; */
   border: 2px solid #000000;
-  border-spacing: 0px;
+  /* border-spacing: 0px; */
   border-radius: 10px;
 }
-
+/* 
 thead{
   padding-top: 10px;
-}
+} */
 
 .colhead{
   background-color: #7e0830;
@@ -68,39 +68,55 @@ thead{
   min-width: 125px;
   padding: 10px;
   text-transform: uppercase;
+  vertical-align: middle;
   }
 
-.colhead:first-child{
+/* .colhead:first-child{
   border-top-left-radius: 10px;
 }
 
 .colhead:last-child{
   border-top-right-radius: 10px;
-}
+} */
 
 .rowhead{
-  border-top: 2px solid #000000;
-  border-right: 2px solid #000000;
+  border-width: 2px;
+  border-top: solid #000000;
+  border-right: solid #000000;
   vertical-align: middle;
+  text-align: center;
+  padding: 10px;
 }
 
-td,
-tr{
+td{
   padding: 10px;
   text-align: center;
   vertical-align: middle;
+  border-width: 2px;
   border-top: 2px solid #000000;
-  border-right: 2px solid #000000;
+  /* border-right: 2px solid #000000; */
 }
 
-tr:last-child .rowhead{
+*:focus{
+  border: 3px dashed #417243;
+}
+
+thead tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
+
+thead tr:first-child th:last-child{
+  border-top-right-radius: 10px;
+}
+
+tbody tr:last-child th:first-child{
   border-bottom-left-radius: 10px;
-  border-color: #000000;
+  /* border-color: #000000; */
 }
 
-tr:last-child td:last-child{
+tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
-  border-color: #000000;
+  /* border-color: #000000; */
 }
 
 tr:nth-child(odd){
@@ -112,30 +128,28 @@ tr:nth-child(even){
 }
 
 tr:hover{
-  color: #000000;
+  /* color: #000000; */
   background-color: rgba(126,8,48,.25);
 }
 
-*:focus{
-  border: 3px dashed #417243;
-}
 
-thead tr:first-child th:first-child{}
+
+/* thead tr:first-child th:first-child{} */
 
 footer{
   width:100%;
   min-height: 75px;
-  background:#000000;
+  background-color:#000000;
   position: fixed;
-  left:0px;
-  bottom:0px;
+  left:0;
+  bottom:0;
   text-align:center;
   color: #FFFFFF;
 }
 
-footer p{
+/* footer p{
   color: #FFFFFF;
   text-align:center;
   padding-right: 10px;
   padding-left: 10px;
-}
+} */
