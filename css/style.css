@@ -64,9 +64,8 @@ table{
   }
 
 .rowhead{
-  border-width: 2px;
-  border-top: solid #000000;
-  border-right: solid #000000;
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
   vertical-align: middle;
   text-align: center;
   padding: 10px;
@@ -94,12 +93,10 @@ thead tr:first-child th:last-child{
 
 tbody tr:last-child th:first-child{
   border-bottom-left-radius: 10px;
-  /* border-color: #000000; */
 }
 
 tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
-  /* border-color: #000000; */
 }
 
 tbody tr:nth-child(even){
@@ -111,7 +108,6 @@ tbody tr:nth-child(odd){
 }
 
 tbody tr:hover{
-  /* color: #000000; */
   background-color: rgba(126,8,48,.25);
 }
 
@@ -125,10 +121,3 @@ footer{
   text-align:center;
   color: #FFFFFF;
 }
-
-/* footer p{
-  color: #FFFFFF;
-  text-align:center;
-  padding-right: 10px;
-  padding-left: 10px;
-} */
