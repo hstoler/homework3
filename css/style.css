@@ -48,21 +48,13 @@ a{
 }
 
 table{
-  /* color: black;
-  margin-left: auto; */
   margin: auto;
-  /* border-collapse: separate; */
   border: 2px solid #000000;
-  /* border-spacing: 0px; */
   border-radius: 10px;
 }
-/* 
-thead{
-  padding-top: 10px;
-} */
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   text-align: center;
   color: #FFFFFF;
   min-width: 125px;
@@ -70,14 +62,6 @@ thead{
   text-transform: uppercase;
   vertical-align: middle;
   }
-
-/* .colhead:first-child{
-  border-top-left-radius: 10px;
-}
-
-.colhead:last-child{
-  border-top-right-radius: 10px;
-} */
 
 .rowhead{
   border-width: 2px;
@@ -94,7 +78,6 @@ td{
   vertical-align: middle;
   border-width: 2px;
   border-top: 2px solid #000000;
-  /* border-right: 2px solid #000000; */
 }
 
 *:focus{
