@@ -108,7 +108,7 @@ tbody tr:nth-child(odd){
 }
 
 tbody tr:hover{
-  background-color: rgba(126,8,48,.25);
+  background-color: rgba(126,8,32,.25);
 }
 
 footer{
